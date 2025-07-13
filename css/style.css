@@ -1,0 +1,189 @@
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+
+/* shared */
+
+.btn-primary{
+    padding: 10px 20px;
+    font-size:16px;
+    font-weight: 700;
+    border: none;
+    background-color: #4E47FF;
+    color:#fff;
+    border-radius: 5px;
+    font-family: raleway;
+}
+.text-center{
+    text-align: center;
+}
+.second-bg{
+    background-color: rgba(30, 30, 30, 1);
+}
+main section{
+   
+   margin: 0 160px 0 160px;
+   padding: 5px
+}
+    
+/* nav style */
+ header{
+  background-image: url(../Assets/Hero-bg.png);
+  height: 100vh;
+  
+  
+}
+nav{
+   margin: 0 150px 0 150px;
+}
+nav ul{
+display: flex;
+justify-content: space-between;
+padding: 20px;
+
+}
+nav ul li{
+    list-style: none;
+}nav ul li a{
+    text-decoration: none;
+}
+
+.nav-title{
+    font-size: 34px;
+    font-weight: 700;
+    color: #4E47FF;
+    font-family: raleway;
+
+}
+.bannar{
+    
+}
+.title{
+   margin-top: 150px;
+   text-align: center;
+   font-family: raleway;
+   color: #252432;
+   font-family: 65px;
+   
+   
+
+}
+/* action section */
+.action-section{
+    display: flex;
+    justify-content: space-between;
+     margin: 130px 150px 130px 150px;
+    gap: 40px;
+}
+.action-tile{
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+    font-family: raleway;
+    
+}
+.action-tile, .description{
+    text-align: center;
+}
+.description{
+    font-size: 24px;
+    font-weight: 400;
+    color: 252432;
+    font-family: raleway;
+    line-height: 30px;
+    margin: 0 120px;
+    margin-bottom: 15px;
+}
+.img-1{
+    border-radius: 50px;
+    width:30%
+}
+/* productive */
+.productive{
+    background-color: #E5E7FF;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+.section-tilte-user{
+    font-size: 38px;
+    font-weight: 700;
+    font-family: raleway;
+   
+}
+.container-user{
+    display: flex;
+    justify-content: space-evenly;
+     gap:10px
+}
+.item h2{
+    color: #4E47FF;
+    font-size: 65px;
+    font-weight: 700;
+    font-family: inter;
+}
+.item p{
+    font-size: 20px;
+    color:#000000;
+    font-family: inter;
+}
+/* item-review */
+.review{
+  
+}
+.container{
+    display: flex;
+    
+}
+.item-review{
+    padding: 30px;
+    background-color: #E5E7FF;
+    box-shadow: rgba(242, 237, 237, 1) ;
+    margin: 10px;
+
+    
+}
+.icon{
+    width: 50px;
+    display: flex;
+    
+}
+.what-user{
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+.profile{
+    display: flex;
+     border-radius: 50%;
+}
+.profile-img{
+    border-radius: 50%;
+} 
+
+img{
+    width: 30px;
+    padding-top: 20px;
+    margin-right: 10px;
+}
+.profile-title{
+    color:#252432;
+    font-weight: 400px;
+    font-family: raleway;
+    
+}
+.profile-title h5{
+    font-size: 16px;
+    font-family: raleway;
+}
+.profile-title p{
+    color:#B3B3B3;
+}
+.views{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: raleway;
+}

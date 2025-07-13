@@ -6,6 +6,9 @@
 }
 
 /* shared */
+body{
+    background-color: rgba(245, 248, 255);
+}
 
 .btn-primary{
     padding: 10px 20px;
@@ -21,7 +24,7 @@
     text-align: center;
 }
 .second-bg{
-    background-color: rgba(30, 30, 30, 1);
+  
 }
 main section{
    
@@ -187,3 +190,56 @@ img{
     font-weight: 700;
     font-family: raleway;
 }
+/* focus-better */
+.focus-better{
+    margin-top: 65px;
+
+    background-color: #FFFFFF;
+}
+.focus-title{
+  text-align: center;
+  
+}
+.focus-title h3{
+font-size: 50px;
+margin-bottom: 0;
+font-family: raleway;
+font-weight: 700;
+}
+.focus-better img{
+    width: 65%;
+    align-items: center;
+    margin: 0 160px 0 160px;
+}
+.img-focus{
+    width: 100%;
+}
+/* Get in Touch */
+.get-in-touch{
+    
+ margin:120px 160px 0 160px;
+ 
+  
+}
+.title-touch{
+    font-size: 97px;
+    font-weight: 700;
+    font-family: raleway;
+}
+.touch-container{
+    display: flex;
+
+    
+}
+.form-part{
+ 
+   
+}
+.form-part input[type="text"], .form-part input[type="email"], textarea{
+   padding: 15px;
+    width:400px;
+    border:none;
+}
+
+
+
